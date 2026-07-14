@@ -15,12 +15,19 @@ text
 ProjectRoot/
 
 ├── mylibrary/
+
 │   ├── __init__.py
+
 │   ├── __main__.py
+
 │   └── library.py
+
 ├── main.py
+
 ├── setup.py
+
 ├── README.md
+
 └── .gitignore
 
 ---
