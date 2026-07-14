@@ -11,20 +11,25 @@
 ---
 ## ساختار پروژه
 
-</div>
-
-'''text
+text
 ProjectRoot/
+
 ├── mylibrary/
+
 │   ├── __init__.py
+
 │   ├── __main__.py
+
 │   └── library.py
+
 ├── main.py
+
 ├── setup.py
+
 ├── README.md
+
 └── .gitignore
-'''
-<div dir="rtl">
+
 ---
 ##توضیح فایل‌ها
 
