@@ -11,7 +11,7 @@
 ---
 ## ساختار پروژه
 
-' ' 'text
+' ' ' text
 ProjectRoot/
 │
 ├── mylibrary/
@@ -23,6 +23,7 @@ ProjectRoot/
 ├── setup.py
 ├── README.md
 └── .gitignore
+
 ' ' '
 ---
 ##توضیح فایل‌ها
