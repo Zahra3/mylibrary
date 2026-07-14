@@ -13,7 +13,7 @@
 
 </div>
 
-text
+'''text
 ProjectRoot/
 ├── mylibrary/
 │   ├── __init__.py
@@ -23,8 +23,7 @@ ProjectRoot/
 ├── setup.py
 ├── README.md
 └── .gitignore
-
-
+'''
 <div dir="rtl">
 ---
 ##توضیح فایل‌ها
