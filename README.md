@@ -1,11 +1,20 @@
-# MyLibrary (پروژه تمرینی OOP در پایتون)
+# MyLibrary (Python OOP Practice Project)
+
+<div dir="rtl">
+
+## معرفی
 
 این پروژه یک نمونه ساده برای تمرین مفاهیم شیءگرایی (OOP) و ساختار پکیج در پایتون است.
+
+هدف اصلی پروژه، تمرین طراحی کلاس‌ها، ماژول‌ها و ساختاردهی پروژه به صورت یک پکیج قابل نصب است.
 
 ---
 
 ## ساختار پروژه
-```text
+
+</div>
+
+text
 ProjectRoot/
 ├── mylibrary/
 │   ├── __init__.py
@@ -15,38 +24,125 @@ ProjectRoot/
 ├── setup.py
 ├── README.md
 └── .gitignore
-"""
 
-راهنمای کامل نصب و اجرا در ویندوز (Windows)
-0) رفتن به پوشه پروژه (ProjectRoot) روی Desktop
-PowerShell یا Terminal را باز کنید و این دستور را بزنید:
 
-""" cd "$env:USERPROFILE\Desktop\ProjectRoot"  """
+<div dir="rtl">
 
-1) ساخت محیط مجازی (فقط اگر از قبل ندارید)
-اگر پوشه .venv را ندارید، این را اجرا کنید:
+توضیح فایل‌ها
 
-""" py -m venv .venv """
+- mylibrary/
+  - __init__.py معرفی پوشه به عنوان پکیج پایتون
+  - __main__.py امکان اجرای پکیج با دستور python -m mylibrary
+  - library.py شامل کلاس‌ها و توابع اصلی پروژه
 
-2) فعال‌سازی محیط مجازی
+- main.py
+  - فایل اصلی برای اجرای نمونه و تست پروژه
 
-"""  .\.venv\Scripts\Activate.ps1  """
+- setup.py
+  - تنظیمات نصب و بسته‌بندی پکیج
 
-بعد از فعال شدن، ابتدای خط ترمینال معمولاً چیزی شبیه (.venv) نمایش داده می‌شود.
+- .gitignore
+  - جلوگیری از اضافه شدن فایل‌های موقت، محیط مجازی و فایل‌های Build به Git
 
-3) نصب پروژه به صورت Editable (برای ایمپورت شدن پکیج)
-در همان پوشه ProjectRoot اجرا کنید:
+---
 
-""" python -m pip install -e .""""
+## پیش‌نیازها
 
-4) اجرای پروژه
-دو روش دارید:
+- Python 3
+- آشنایی مقدماتی با PowerShell یا Command Prompt
 
-روش 1: اجرای فایل اصلی
+---
 
-""" python main.py """
+## راه‌اندازی پروژه (Windows)
 
-روش 2: اجرای پکیج
+### 1) ورود به پوشه پروژه
 
-""" python -m mylibrary """
+</div>
 
+powershell
+cd "$env:USERPROFILE\Desktop\ProjectRoot"
+
+
+<div dir="rtl">
+
+### 2) ایجاد محیط مجازی (اختیاری ولی توصیه می‌شود)
+
+</div>
+
+powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+
+<div dir="rtl">
+
+پس از فعال شدن، ابتدای خط فرمان معمولاً عبارت (.venv) نمایش داده می‌شود.
+
+### 3) نصب پروژه به صورت Editable
+
+</div>
+
+powershell
+python -m pip install -e .
+
+
+<div dir="rtl">
+
+---
+
+## اجرای پروژه
+
+### روش اول
+
+</div>
+
+powershell
+python main.py
+
+
+<div dir="rtl">
+
+### روش دوم
+
+</div>
+
+powershell
+python -m mylibrary
+
+
+<div dir="rtl">
+
+---
+
+## اهداف آموزشی
+
+در این پروژه با مفاهیم زیر آشنا می‌شوید:
+
+- برنامه‌نویسی شیءگرا (OOP)
+- طراحی کلاس‌ها و اشیاء
+- ساخت پکیج در Python
+- استفاده از __init__.py
+- استفاده از __main__.py
+- نصب پروژه با setup.py
+- نصب Editable Package
+- استفاده صحیح از .gitignore
+
+---
+
+## توسعه‌های آینده
+
+این پروژه فعلاً آموزشی است اما می‌تواند به پروژه‌های بزرگ‌تر توسعه داده شود، مانند:
+
+- ساخت کتابخانه‌های شخصی Python
+- پروژه‌های آموزشی OOP
+- انتشار پکیج در PyPI
+
+در آینده می‌توان بخش‌های Features، Examples و Documentation را نیز به این README اضافه کرد.
+
+---
+
+## License
+
+This project is intended for educational purposes.
+
+</div>
