@@ -11,25 +11,19 @@
 ---
 ## ساختار پروژه
 
-text
-ProjectRoot/
+<h2>📁 Project Structure</h2>
 
-├── mylibrary/
-
-│   ├── __init__.py
-
-│   ├── __main__.py
-
+<pre>
+ProjectRoot
+├── mylibrary
+│   ├── init.py
+│   ├── main.py
 │   └── library.py
-
 ├── main.py
-
 ├── setup.py
-
 ├── README.md
-
 └── .gitignore
-
+</pre>
 ---
 ##توضیح فایل‌ها
 
